@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+.calculadora{
+    box-shadow: 3px 3px 10px #74757a;
+    margin: 50px 30px;
+    width: 27em;
+    background-color: #38393f;
+    padding: 30px;
+    margin-right: 77%;
+    border: 5px solid black;
+    border-radius: 5px;
+    
+
+}
+.title h1{
+    color: rgb(255, 255, 255);
+}
+
+#resultado{
+    margin: 10px 0 !important;
+    background-color: #e3e4e7;
+    width: 92%;
+    height: 75px;
+    background-image: url("/Css/Img/810.png");
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: 8px 15px;
+    border: 1px solid rgb(15, 12, 12);
+    color: rgb(38, 34, 34);
+    padding: 15px 32px;
+    font-weight: 500;
+    text-align: right;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 5px;
+} 
+
+
+.container {
+    width: 100%;
+    margin: 0.5% -10px;
+    position: relative;
+    
+}
+
+.inline {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.box {
+    
+    text-align: left;
+    
+}
+
+
+button {    
+     
+     font-size: 20px;
+     width: 14%;
+     height: 50px;
+     color: white;
+     padding: 5px;
+     margin: 15px;
+     border: 1px solid rgba(255, 255, 255, 0.475);
+     border-radius: 20px;
+     cursor: pointer;
+     background: rgb(99, 164, 244);     
+}
+
+
+
+.container :nth-child(4) {
+    background: black;
+}
+
+.title{
+    color: rgb(6, 10, 27);
+    margin-left: 16px;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>CALC</title>
+</head>
+<body>
+    
+</body>
+</html>
+    </head>
+    <body>
+        <div class="calculadora">
+            <div class="title"><h1>Projeto Calculadora</h1></div>
+
+            <div id="resultado"></div>
+
+        <div class="container">
+            <div class="inline">
+                <div class="box">
+                    <button onclick="clean()" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''" >AC</button>
+                    <button onclick="back()" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''"><</button>
+                    <button onclick="insert('%')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">%</button>
+                    <button onclick="insert('/')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">/</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="inline">
+                <div class="box">
+                    <button onclick="insert('7')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''" >7</button>
+                    <button onclick="insert('8')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">8</button>
+                    <button onclick="insert('9')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">9</button>
+                    <button onclick="insert('*')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">x</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="inline">
+                <div class="box">
+                    <button onclick="insert('4')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''" >4</button>
+                    <button onclick="insert('5')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">5</button>
+                    <button onclick="insert('6')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">6</button>
+                    <button onclick="insert('+')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inline">
+                <div class="box">
+                    <button onclick="insert('1')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''" >7</button>
+                    <button onclick="insert('2')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">8</button>
+                    <button onclick="insert('3')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">9</button>
+                    <button onclick="insert('-')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">-</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="inline">
+                <div class="box">
+                    <button onclick="insert('0')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''" >0</button>
+                    <button onclick="insert('.')" onmouseover="this.style.background='#0d51ab'" onmouseout="this.style.background=''">.</button>
+                    <button onclick="calc()" onmouseover="this.style.background='black'" onmouseout="this.style.background='rgb(56, 213, 13)'" 
+                    style="width: 40%;background: rgb(56, 213, 13);color: bisque">=</button>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+           
+
+        </div>
+
+        <script src="/JS/script.js"></script>
+    </body>
+
+   
+</html>
